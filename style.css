@@ -22,9 +22,9 @@ section li {
 
 section ul a:link,
 section ul a:visited {
-    background-color: rgb(119, 128, 0);
-    border: 1.5px solid blue;
-    color: rgb(244, 247, 248);
+    background-color: rgb(242, 247, 177);
+    border: 1.5px solid rgb(29, 29, 49);
+    color: rgb(35, 39, 41);
     display: block;
     width: 200px;
     text-align: center;
@@ -42,8 +42,30 @@ section figure a {
     color: rgb(65, 65, 192);
 }
 
+footer {
+    /*width: 960px;*/
+    margin: 0 auto;
+    background-color: black;
+}
+
 .relative {
-    position: relative;
-    left: 500px;
-    border: 3px solid #73ad21;
+    font-size: 15px;
+    text-align: center;
+    line-height: 60px;
+    color: #FFF
+}
+
+footer a:link,
+footer a:visited {
+    color: rgb(181, 181, 247);
+}
+
+footer a:hover,
+footer a:active {
+    color: #FFF;
+}
+
+figure a:hover,
+figure a:active {
+    color: rgb(91, 182, 118);
 }
