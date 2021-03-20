@@ -23,7 +23,7 @@ section li {
 section ul a:link,
 section ul a:visited {
     background-color: rgb(119, 128, 0);
-    border: 1px solid blue;
+    border: 1.5px solid blue;
     color: rgb(244, 247, 248);
     display: block;
     width: 200px;
